@@ -79,16 +79,6 @@ Navigation is explicitly maintained in `mkdocs.yml`. When a new manual is added 
 - Small progressive-enhancement script: `docs/assets/javascripts/extra.js`
 - Vanguard mark and favicon: `docs/assets/images/vanguard-mark.svg`
 
-## Custom Domain
-
-To use a custom domain, create `docs/CNAME` containing only the domain:
-
-```text
-docs.example.com
-```
-
-Then configure the same domain in GitHub Pages settings and update `SITE_URL` or the fallback `site_url` in `mkdocs.yml`.
-
 ## License
 
 The documentation site and copied Vanguard documentation use the repository's MIT License.

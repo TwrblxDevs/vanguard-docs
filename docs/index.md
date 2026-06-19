@@ -2,6 +2,9 @@
 
 This directory is the complete guide and reference for Vanguard. The root project README is a quick introduction; these documents cover behavior, guarantees, edge cases, and the full public API.
 
+!!! warning
+    Vanguard is in its early development phase and is constantly receiving updates. The documentation may not be update to date and will be updated when is needed. Please check [Wally](https://wally.run/package/twrblxdevs/vanguard) for the newest Version
+
 ## Start Here
 
 | Guide | What it covers |

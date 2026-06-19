@@ -1,0 +1,126 @@
+site_name: Vanguard Documentation
+site_description: Complete guides and API reference for the Vanguard Roblox application framework.
+site_author: TwrblxDevs
+site_url: !ENV [SITE_URL, "https://twrblxdevs.github.io/VanguardDocs/"]
+repo_name: !ENV [REPO_NAME, "TwrblxDevs/VanguardDocs"]
+repo_url: !ENV [REPO_URL, "https://github.com/TwrblxDevs/VanguardDocs"]
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/vanguard-mark.svg
+  favicon: assets/images/vanguard-mark.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - announce.dismiss
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-,:!=\[\]()"/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Get Started:
+      - Getting Started: getting-started/index.md
+      - Configuration: configuration/index.md
+      - Lifecycle: lifecycle/index.md
+  - Core:
+      - Services: services/index.md
+      - Controllers: controllers/index.md
+      - Components: components/index.md
+      - Classes: classes/index.md
+  - Networking:
+      - Networking: networking/index.md
+      - Network Security: network-security/index.md
+  - Reference:
+      - API Reference: api-reference/index.md
+      - Type System: type-system/index.md
+  - Utilities:
+      - Overview: utilities/index.md
+      - Promise: utilities/promise/index.md
+      - Cleaner: utilities/cleaner/index.md
+      - Signal: utilities/signal/index.md
+      - Logger: utilities/logger/index.md
+      - Cache: utilities/cache/index.md
+      - RateLimiter: utilities/rate-limiter/index.md
+      - Validator: utilities/validator/index.md
+      - NetworkGuard: utilities/network-guard/index.md
+  - Help:
+      - Troubleshooting: troubleshooting/index.md
+      - Migrating from Knit: migration-from-knit/index.md
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: !ENV [REPO_URL, "https://github.com/TwrblxDevs/VanguardDocs"]
+      name: Vanguard documentation on GitHub
+
+copyright: Copyright &copy; 2026 TwrblxDevs. Vanguard is available under the MIT License.
+
+strict: true

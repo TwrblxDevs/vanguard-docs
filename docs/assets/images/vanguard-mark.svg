@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Vanguard</title>
+  <path fill="#f7f9f8" d="M32 4 55 12v17c0 14.7-8.5 25.4-23 31C17.5 54.4 9 43.7 9 29V12L32 4Z"/>
+  <path fill="#137078" d="M32 9.5 50 15v14c0 11.6-6.1 20.1-18 25.2C20.1 49.1 14 40.6 14 29V15l18-5.5Z"/>
+  <path fill="#d45545" d="m20 20 7.7 23h8.6L44 20h-7.1L32 36.4 27.1 20H20Z"/>
+</svg>

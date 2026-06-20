@@ -47,6 +47,18 @@ theme:
       accent: custom
       toggle:
         icon: material/brightness-4
+        name: Switch to high contrast mode
+    - scheme: vanguard-contrast
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/contrast-box
+        name: Switch to studio mode
+    - scheme: vanguard-studio
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/palette
         name: Switch to light mode
 
 plugins:
@@ -111,6 +123,7 @@ nav:
       - RateLimiter: utilities/rate-limiter/index.md
       - Validator: utilities/validator/index.md
       - NetworkGuard: utilities/network-guard/index.md
+  - Contributing: contributing/index.md
   - Help:
       - Troubleshooting: troubleshooting/index.md
       - Migrating from Knit: migration-from-knit/index.md

@@ -16,6 +16,7 @@ local Promise = require(Vanguard.Util.Promise)
 | `Cache` | TTL storage, LRU capacity, lazy values | [Cache](cache/index.md) |
 | `Class` | Constructors and inheritance | [Classes](../classes/index.md) |
 | `Cleaner` | Deterministic resource cleanup | [Cleaner](cleaner/index.md) |
+| `Diagnostics` | Get diagnostic information | [Diagnostics](diagnostics/index.md) |
 | `Component` | Tagged Instance behavior | [Components](../components/index.md) |
 | `Error` | Stable error codes and documentation links | [Errors](../errors/index.md) |
 | `Logger` | Scoped level-based output | [Logger](logger/index.md) |

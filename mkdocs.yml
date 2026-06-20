@@ -123,6 +123,7 @@ nav:
       - RateLimiter: utilities/rate-limiter/index.md
       - Validator: utilities/validator/index.md
       - NetworkGuard: utilities/network-guard/index.md
+      - Diagnostics: utilities/diagnostics/index.md
   - Contributing: contributing/index.md
   - Help:
       - Troubleshooting: troubleshooting/index.md

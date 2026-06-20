@@ -43,6 +43,7 @@ The [utility index](utilities/index.md) explains when to use each utility.
 | Cache | [Cache](utilities/cache/index.md) |
 | Class | [Class](classes/index.md) |
 | Cleaner | [Cleaner](utilities/cleaner/index.md) |
+| Diagnostics | [Diagnostics](utilities/diagnostics/index.md) |
 | Component | [Components](components/index.md) |
 | Logger | [Logger](utilities/logger/index.md) |
 | Math | [Math](utilities/math/index.md) |

@@ -274,6 +274,14 @@ A general utility received invalid options, callbacks, costs, validators, or
 post-destroy operations. The specific message names the violated contract; use
 the linked utility guide for its valid range and lifecycle.
 
+## Diagnostics
+
+### VG-DIAG-001: Memory tracking disabled { #vg-diag-001 }
+
+A function requiring memory tracking was invoked while memory tracking is 
+disabled. This can be fixed by relaunching Roblox with the Micro-Profiler
+open.
+
 ## Network Rejection Mapping
 
 Remote rejection names remain stable for metrics and application policy. The
